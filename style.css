@@ -1,8 +1,45 @@
+	/** Body **/
+	body {
+	}
 	/**  Header */
+	header {
+
+	}
 	/** nav bar */
+	nav {
+
+	}
 	/** Section (Left Align)  */
+	section {
+	}	
 		/** article  */
+	article {
+
+	}
 			/**  H1, H2, H3  */
+	h1 {
+
+	}
+	h2 {
+
+	}
+	h3 {
+
+	}
 			/**  p  */
+	p {
+
+	}
 	/**  aside (Right Align)  */
+	aside {
+
+	}
 	/** footer  */
+	footer {
+
+	}
+
+	/** Class Clear */
+	.clear {
+
+	}
