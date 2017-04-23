@@ -1,45 +1,69 @@
+  /** Common Decoration **/
+  .formatOuterContainer {
+		padding: 1%;
+		margin: 1%;
+		background-color: #eee;
+		text-align: center;
+	}
+
+	.formatInnerContainer {
+		padding: 1%;
+		margin: 1%;
+		background-color: #696969;
+		text-align: center;
+	}
+
 	/** Body **/
 	body {
+		background-color: #696969;
+		color: #696969;
+		width: 800px;
+    margin: 0 auto;
 	}
 	/**  Header */
 	header {
-
+		width: 100%;
 	}
 	/** nav bar */
 	nav {
-
+		width: 100%;
 	}
 	/** Section (Left Align)  */
 	section {
-	}	
-		/** article  */
-	article {
-
-	}
-			/**  H1, H2, H3  */
-	h1 {
-
-	}
-	h2 {
-
-	}
-	h3 {
-
-	}
-			/**  p  */
-	p {
-
+		float: left;
+	  width: 56%;
+		height: 150px;
 	}
 	/**  aside (Right Align)  */
 	aside {
-
+		float: left;
+		margin-right: -10px;
+		width: 36%;
+		height: 150px;
+	}
+	/** article  */
+	article {
+		color: #fff;
+		margin-bottom: 100px;
+	}
+	/**  H1, H2, H3  */
+	h1 {
+		color: #696969;
+		font-weight: normal;
+	}
+	/**  p  */
+	p {
+		color: #696969;
 	}
 	/** footer  */
 	footer {
-
+		width: 100%;
+		clear: both;
 	}
 
 	/** Class Clear */
-	.clear {
-
+	.aside:clear {
+		content: "";
+		display: block;
+		clear: both;
 	}
